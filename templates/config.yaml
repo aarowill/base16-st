@@ -1,0 +1,6 @@
+default:
+  extension: .h
+  output: colors
+default-256:
+  extension: -256.h
+  output: colors

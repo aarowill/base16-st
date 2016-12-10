@@ -1,0 +1,47 @@
+{{!
+  Original can be found here:
+  https://github.com/chriskempson/base16-builder/blob/master/templates/st/dark.c.erb
+}}
+// Base16 {{scheme-name}} dark - simple terminal color setup
+// {{scheme-author}}
+static const char *colorname[] = {
+	/* Normal colors */
+	"#{{base00-hex}}", /*  0: Base 00 - Black   */
+	"#{{base08-hex}}", /*  1: Base 08 - Red     */
+	"#{{base0B-hex}}", /*  2: Base 0B - Green   */
+	"#{{base0A-hex}}", /*  3: Base 0A - Yellow  */
+	"#{{base0D-hex}}", /*  4: Base 0D - Blue    */
+	"#{{base0E-hex}}", /*  5: Base 0E - Magenta */
+	"#{{base0C-hex}}", /*  6: Base 0C - Cyan    */
+	"#{{base05-hex}}", /*  7: Base 05 - White   */
+
+	/* Bright colors */
+	"#{{base03-hex}}", /*  8: Base 03 - Bright Black */
+	"#{{base08-hex}}", /*  9: Base 08 - Red          */
+	"#{{base0B-hex}}", /* 10: Base 0B - Green        */
+	"#{{base0A-hex}}", /* 11: Base 0A - Yellow       */
+	"#{{base0D-hex}}", /* 12: Base 0D - Blue         */
+	"#{{base0E-hex}}", /* 13: Base 0E - Magenta      */
+	"#{{base0C-hex}}", /* 14: Base 0C - Cyan         */
+	"#{{base07-hex}}", /* 15: Base 05 - Bright White */
+
+	/* A few more colors */
+
+	"#{{base09-hex}}", /* 16: Base 09 */
+	"#{{base0F-hex}}", /* 17: Base 0F */
+	"#{{base01-hex}}", /* 18: Base 01 */
+	"#{{base02-hex}}", /* 19: Base 02 */
+	"#{{base04-hex}}", /* 20: Base 04 */
+	"#{{base06-hex}}", /* 21: Base 06 */
+
+	[255] = 0,
+
+	[256] = "#{{base05-hex}}", /* default fg: Base 05 */
+	[257] = "#{{base00-hex}}", /* default bg: Base 00 */	
+};
+
+// Foreground, background and cursor
+static unsigned int defaultfg = 256;
+static unsigned int defaultbg = 257;
+static unsigned int defaultcs = 256;
+static unsigned int defaultrcs = 257;
