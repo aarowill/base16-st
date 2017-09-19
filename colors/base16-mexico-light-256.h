@@ -1,0 +1,43 @@
+// Base16 Mexico Light dark - simple terminal color setup
+// Sheldon Johnson
+static const char *colorname[] = {
+	/* Normal colors */
+	"#f8f8f8", /*  0: Base 00 - Black   */
+	"#ab4642", /*  1: Base 08 - Red     */
+	"#538947", /*  2: Base 0B - Green   */
+	"#f79a0e", /*  3: Base 0A - Yellow  */
+	"#7cafc2", /*  4: Base 0D - Blue    */
+	"#96609e", /*  5: Base 0E - Magenta */
+	"#4b8093", /*  6: Base 0C - Cyan    */
+	"#383838", /*  7: Base 05 - White   */
+
+	/* Bright colors */
+	"#b8b8b8", /*  8: Base 03 - Bright Black */
+	"#ab4642", /*  9: Base 08 - Red          */
+	"#538947", /* 10: Base 0B - Green        */
+	"#f79a0e", /* 11: Base 0A - Yellow       */
+	"#7cafc2", /* 12: Base 0D - Blue         */
+	"#96609e", /* 13: Base 0E - Magenta      */
+	"#4b8093", /* 14: Base 0C - Cyan         */
+	"#181818", /* 15: Base 05 - Bright White */
+
+	/* A few more colors */
+
+	"#dc9656", /* 16: Base 09 */
+	"#a16946", /* 17: Base 0F */
+	"#e8e8e8", /* 18: Base 01 */
+	"#d8d8d8", /* 19: Base 02 */
+	"#585858", /* 20: Base 04 */
+	"#282828", /* 21: Base 06 */
+
+	[255] = 0,
+
+	[256] = "#383838", /* default fg: Base 05 */
+	[257] = "#f8f8f8", /* default bg: Base 00 */
+};
+
+// Foreground, background and cursor
+static unsigned int defaultfg = 256;
+static unsigned int defaultbg = 257;
+static unsigned int defaultcs = 256;
+static unsigned int defaultrcs = 257;
