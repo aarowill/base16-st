@@ -14,7 +14,7 @@ static const char *colorname[] = {
 	/* Bright colors */
 	"#41535b", /*  8: Base 03 - Bright Black */
 	"#db7b55", /* 16: Base 09 */
-	"#8ec43d", /* 18: Base 01 */
+	"#282a2b", /* 18: Base 01 */
 	"#3b758c", /* 19: Base 02 */
 	"#43a5d5", /* 20: Base 04 */
 	"#eeeeee", /* 21: Base 06 */
@@ -27,8 +27,8 @@ static const char *colorname[] = {
 	[257] = "#151718", /* default bg: Base 00 */
 };
 
-// Foreground, background and cursor
-static unsigned int defaultfg = 256;
-static unsigned int defaultbg = 257;
+// Foreground, background, cursor, and reversed cursor colors
+unsigned int defaultfg = 256;
+unsigned int defaultbg = 257;
 static unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
