@@ -1,5 +1,5 @@
 // Base16 Solarized Light dark - simple terminal color setup
-// Ethan Schoonover (http://ethanschoonover.com/solarized)
+// Ethan Schoonover (modified by aramisgithub)
 static const char *colorname[] = {
 	/* Normal colors */
 	"#fdf6e3", /*  0: Base 00 - Black   */

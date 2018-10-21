@@ -2,7 +2,7 @@
 // elnawe
 static const char *colorname[] = {
 	/* Normal colors */
-	"#3f3f3f", /*  0: Base 00 - Black   */
+	"#383838", /*  0: Base 00 - Black   */
 	"#dca3a3", /*  1: Base 08 - Red     */
 	"#5f7f5f", /*  2: Base 0B - Green   */
 	"#e0cf9f", /*  3: Base 0A - Yellow  */
@@ -12,7 +12,7 @@ static const char *colorname[] = {
 	"#dcdccc", /*  7: Base 05 - White   */
 
 	/* Bright colors */
-	"#4f4f4f", /*  8: Base 03 - Bright Black */
+	"#6f6f6f", /*  8: Base 03 - Bright Black */
 	"#dfaf8f", /* 16: Base 09 */
 	"#404040", /* 18: Base 01 */
 	"#606060", /* 19: Base 02 */
@@ -24,7 +24,7 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	[256] = "#dcdccc", /* default fg: Base 05 */
-	[257] = "#3f3f3f", /* default bg: Base 00 */
+	[257] = "#383838", /* default bg: Base 00 */
 };
 
 // Foreground, background, cursor, and reversed cursor colors
