@@ -9,7 +9,7 @@ static const char *colorname[] = {
 	"#d75f00", /*  4: Base 0D - Blue    */
 	"#005faf", /*  5: Base 0E - Magenta */
 	"#d75f00", /*  6: Base 0C - Cyan    */
-	"#878787", /*  7: Base 05 - White   */
+	"#444444", /*  7: Base 05 - White   */
 
 	/* Bright colors */
 	"#5f8700", /*  8: Base 03 - Bright Black */
@@ -19,7 +19,7 @@ static const char *colorname[] = {
 	"#d75f00", /* 12: Base 0D - Blue         */
 	"#005faf", /* 13: Base 0E - Magenta      */
 	"#d75f00", /* 14: Base 0C - Cyan         */
-	"#444444", /* 15: Base 05 - Bright White */
+	"#878787", /* 15: Base 05 - Bright White */
 
 	/* A few more colors */
 
@@ -32,7 +32,7 @@ static const char *colorname[] = {
 
 	[255] = 0,
 
-	[256] = "#878787", /* default fg: Base 05 */
+	[256] = "#444444", /* default fg: Base 05 */
 	[257] = "#eeeeee", /* default bg: Base 00 */
 };
 

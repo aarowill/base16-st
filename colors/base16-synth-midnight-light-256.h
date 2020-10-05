@@ -1,39 +1,39 @@
-// Base16 Synth Midnight Terminal Dark dark - simple terminal color setup
+// Base16 Synth Midnight Terminal Light dark - simple terminal color setup
 // Michaël Ball (http://github.com/michael-ball/)
 static const char *colorname[] = {
 	/* Normal colors */
-	"#050608", /*  0: Base 00 - Black   */
+	"#dddfe0", /*  0: Base 00 - Black   */
 	"#b53b50", /*  1: Base 08 - Red     */
 	"#06ea61", /*  2: Base 0B - Green   */
 	"#c9d364", /*  3: Base 0A - Yellow  */
 	"#03aeff", /*  4: Base 0D - Blue    */
 	"#ea5ce2", /*  5: Base 0E - Magenta */
 	"#42fff9", /*  6: Base 0C - Cyan    */
-	"#c1c3c4", /*  7: Base 05 - White   */
+	"#28292a", /*  7: Base 05 - White   */
 
 	/* Bright colors */
-	"#474849", /*  8: Base 03 - Bright Black */
+	"#a3a5a6", /*  8: Base 03 - Bright Black */
 	"#b53b50", /*  9: Base 08 - Red          */
 	"#06ea61", /* 10: Base 0B - Green        */
 	"#c9d364", /* 11: Base 0A - Yellow       */
 	"#03aeff", /* 12: Base 0D - Blue         */
 	"#ea5ce2", /* 13: Base 0E - Magenta      */
 	"#42fff9", /* 14: Base 0C - Cyan         */
-	"#dddfe0", /* 15: Base 05 - Bright White */
+	"#050608", /* 15: Base 05 - Bright White */
 
 	/* A few more colors */
 
 	"#ea770d", /* 16: Base 09 */
 	"#cd6320", /* 17: Base 0F */
-	"#1a1b1c", /* 18: Base 01 */
-	"#28292a", /* 19: Base 02 */
-	"#a3a5a6", /* 20: Base 04 */
-	"#cfd1d2", /* 21: Base 06 */
+	"#cfd1d2", /* 18: Base 01 */
+	"#c1c3c4", /* 19: Base 02 */
+	"#474849", /* 20: Base 04 */
+	"#1a1b1c", /* 21: Base 06 */
 
 	[255] = 0,
 
-	[256] = "#c1c3c4", /* default fg: Base 05 */
-	[257] = "#050608", /* default bg: Base 00 */
+	[256] = "#28292a", /* default fg: Base 05 */
+	[257] = "#dddfe0", /* default bg: Base 00 */
 };
 
 // Foreground, background, cursor, and reversed cursor colors
