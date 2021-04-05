@@ -3,19 +3,19 @@
 static const char *colorname[] = {
 	/* Normal colors */
 	"#e0e0e0", /*  0: Base 00 - Black   */
-	"#000090", /*  1: Base 08 - Red     */
+	"#840000", /*  1: Base 08 - Red     */
 	"#730073", /*  2: Base 0B - Green   */
-	"#006565", /*  3: Base 0A - Yellow  */
+	"#755b00", /*  3: Base 0A - Yellow  */
 	"#007300", /*  4: Base 0D - Blue    */
-	"#840000", /*  5: Base 0E - Magenta */
+	"#000090", /*  5: Base 0E - Magenta */
 	"#755b00", /*  6: Base 0C - Cyan    */
 	"#000000", /*  7: Base 05 - White   */
 
 	/* Bright colors */
 	"#707070", /*  8: Base 03 - Bright Black */
 	"#006565", /* 16: Base 09 */
-	"#d0d0d0", /* 18: Base 01 */
-	"#c0c0c0", /* 19: Base 02 */
+	"#d0dad0", /* 18: Base 01 */
+	"#d0d0d0", /* 19: Base 02 */
 	"#202020", /* 20: Base 04 */
 	"#f8f8f8", /* 21: Base 06 */
 	"#755b00", /* 17: Base 0F */

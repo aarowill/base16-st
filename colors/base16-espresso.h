@@ -1,5 +1,5 @@
 // Base16 Espresso dark - simple terminal color setup
-// Alex Mirrington (https://github.com/alexmirrington)
+// Unknown. Maintained by Alex Mirrington (https://github.com/alexmirrington)
 static const char *colorname[] = {
 	/* Normal colors */
 	"#2d2d2d", /*  0: Base 00 - Black   */
