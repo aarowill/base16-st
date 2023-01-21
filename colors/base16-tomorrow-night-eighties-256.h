@@ -1,4 +1,4 @@
-// Base16 Tomorrow Night dark - simple terminal color setup
+// Base16 Tomorrow Night Eighties dark - simple terminal color setup
 // Chris Kempson (http://chriskempson.com)
 static const char *colorname[] = {
 	/* Normal colors */

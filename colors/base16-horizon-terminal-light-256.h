@@ -1,4 +1,4 @@
-// Base16 Horizon Light dark - simple terminal color setup
+// Base16 Horizon Terminal Light dark - simple terminal color setup
 // Michaël Ball (http://github.com/michael-ball/)
 static const char *colorname[] = {
 	/* Normal colors */

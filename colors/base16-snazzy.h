@@ -1,5 +1,5 @@
 // Base16 Snazzy dark - simple terminal color setup
-// Chawye Hsu (https://github.com/h404bi) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
+// Chawye Hsu (https://github.com/chawyehsu) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
 static const char *colorname[] = {
 	/* Normal colors */
 	"#282a36", /*  0: Base 00 - Black   */

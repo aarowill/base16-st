@@ -12,14 +12,14 @@ static const char *colorname[] = {
 	"#eeeeee", /*  7: Base 05 - White   */
 
 	/* Bright colors */
-	"#1d1d1d", /*  8: Base 03 - Bright Black */
+	"#4c4c4c", /*  8: Base 03 - Bright Black */
 	"#dc9656", /* 16: Base 09 */
 	"#383838", /* 18: Base 01 */
 	"#484848", /* 19: Base 02 */
 	"#b8b8b8", /* 20: Base 04 */
 	"#e8e8e8", /* 21: Base 06 */
 	"#a16946", /* 17: Base 0F */
-	"#ffffff", /* 15: Base 05 - Bright White */
+	"#feffff", /* 15: Base 05 - Bright White */
 
 	[255] = 0,
 
