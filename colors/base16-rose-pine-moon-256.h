@@ -1,34 +1,34 @@
 // Base16 Rosé Pine Moon dark - simple terminal color setup
-// Emilia Dunfelt &lt;sayhi@dunfelt.se&gt;
+// Emilia Dunfelt &lt;edun@dunfelt.se&gt;
 static const char *colorname[] = {
 	/* Normal colors */
 	"#232136", /*  0: Base 00 - Black   */
-	"#ecebf0", /*  1: Base 08 - Red     */
-	"#ea9a97", /*  2: Base 0B - Green   */
-	"#f6c177", /*  3: Base 0A - Yellow  */
-	"#9ccfd8", /*  4: Base 0D - Blue    */
-	"#c4a7e7", /*  5: Base 0E - Magenta */
-	"#3e8fb0", /*  6: Base 0C - Cyan    */
+	"#eb6f92", /*  1: Base 08 - Red     */
+	"#3e8fb0", /*  2: Base 0B - Green   */
+	"#ea9a97", /*  3: Base 0A - Yellow  */
+	"#c4a7e7", /*  4: Base 0D - Blue    */
+	"#f6c177", /*  5: Base 0E - Magenta */
+	"#9ccfd8", /*  6: Base 0C - Cyan    */
 	"#e0def4", /*  7: Base 05 - White   */
 
 	/* Bright colors */
-	"#59546d", /*  8: Base 03 - Bright Black */
-	"#ecebf0", /*  9: Base 08 - Red          */
-	"#ea9a97", /* 10: Base 0B - Green        */
-	"#f6c177", /* 11: Base 0A - Yellow       */
-	"#9ccfd8", /* 12: Base 0D - Blue         */
-	"#c4a7e7", /* 13: Base 0E - Magenta      */
-	"#3e8fb0", /* 14: Base 0C - Cyan         */
-	"#d9d7e1", /* 15: Base 05 - Bright White */
+	"#6e6a86", /*  8: Base 03 - Bright Black */
+	"#eb6f92", /*  9: Base 08 - Red          */
+	"#3e8fb0", /* 10: Base 0B - Green        */
+	"#ea9a97", /* 11: Base 0A - Yellow       */
+	"#c4a7e7", /* 12: Base 0D - Blue         */
+	"#f6c177", /* 13: Base 0E - Magenta      */
+	"#9ccfd8", /* 14: Base 0C - Cyan         */
+	"#56526e", /* 15: Base 05 - Bright White */
 
 	/* A few more colors */
 
-	"#eb6f92", /* 16: Base 09 */
-	"#b9b9bc", /* 17: Base 0F */
+	"#f6c177", /* 16: Base 09 */
+	"#56526e", /* 17: Base 0F */
 	"#2a273f", /* 18: Base 01 */
 	"#393552", /* 19: Base 02 */
-	"#817c9c", /* 20: Base 04 */
-	"#f5f5f7", /* 21: Base 06 */
+	"#908caa", /* 20: Base 04 */
+	"#e0def4", /* 21: Base 06 */
 
 	[255] = 0,
 

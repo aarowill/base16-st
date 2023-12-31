@@ -3,27 +3,27 @@
 static const char *colorname[] = {
 	/* Normal colors */
 	"#262626", /*  0: Base 00 - Black   */
-	"#5f8787", /*  1: Base 08 - Red     */
-	"#87af87", /*  2: Base 0B - Green   */
-	"#5f8787", /*  3: Base 0A - Yellow  */
-	"#ffffaf", /*  4: Base 0D - Blue    */
-	"#87afd7", /*  5: Base 0E - Magenta */
-	"#5f875f", /*  6: Base 0C - Cyan    */
-	"#bcbcbc", /*  7: Base 05 - White   */
+	"#444444", /*  1: Base 08 - Red     */
+	"#ffffaf", /*  2: Base 0B - Green   */
+	"#87af87", /*  3: Base 0A - Yellow  */
+	"#8787af", /*  4: Base 0D - Blue    */
+	"#5fafaf", /*  5: Base 0E - Magenta */
+	"#87afd7", /*  6: Base 0C - Cyan    */
+	"#5f5f87", /*  7: Base 05 - White   */
 
 	/* Bright colors */
-	"#6c6c6c", /*  8: Base 03 - Bright Black */
+	"#87875f", /*  8: Base 03 - Bright Black */
 	"#ff8700", /* 16: Base 09 */
-	"#303030", /* 18: Base 01 */
-	"#333333", /* 19: Base 02 */
-	"#787878", /* 20: Base 04 */
-	"#c9c9c9", /* 21: Base 06 */
-	"#5f87af", /* 17: Base 0F */
-	"#ffffff", /* 15: Base 05 - Bright White */
+	"#af5f5f", /* 18: Base 01 */
+	"#5f875f", /* 19: Base 02 */
+	"#5f87af", /* 20: Base 04 */
+	"#5f8787", /* 21: Base 06 */
+	"#bcbcbc", /* 17: Base 0F */
+	"#6c6c6c", /* 15: Base 05 - Bright White */
 
 	[255] = 0,
 
-	[256] = "#bcbcbc", /* default fg: Base 05 */
+	[256] = "#5f5f87", /* default fg: Base 05 */
 	[257] = "#262626", /* default bg: Base 00 */
 };
 
